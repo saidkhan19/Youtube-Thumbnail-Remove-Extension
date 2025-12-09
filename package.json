@@ -1,0 +1,11 @@
+{
+  "name": "youtube-thumbnail-remover",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild src/content.js --bundle --outfile=dist/content.js --format=iife",
+    "watch": "esbuild src/content.js --bundle --outfile=dist/content.js --format=iife --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.1"
+  }
+}

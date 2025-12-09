@@ -5,7 +5,13 @@
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
-      "js": ["content.js"]
+      "js": ["dist/content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*"],
+      "matches": ["https://www.youtube.com/*"]
     }
   ]
 }
