@@ -2,7 +2,8 @@ import { getRandomInt } from "./utils";
 
 // Set a random image at load
 const IMAGE_LINK = chrome.runtime.getURL(
-  `images/thumbnail_${getRandomInt(1, 5)}.jpg`
+  // `images/thumbnail_${getRandomInt(1, 5)}.jpg`
+  "images/thumbnail.jpg"
 );
 
 // Youtube dynamically changes 'src' attribute
